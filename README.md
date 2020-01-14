@@ -18,6 +18,7 @@ The following methods are implemented:
     1. [Sampling from a pre-trained model](#Sample)
     2. [Training a model on your data](#Training) 
     3. [Fine-tuning a model on your data](#Finetuning) 
+4. [Manuscript preprint](#Preprint)
 4. [Authors](#Authors)
 5. [License](#License)
 6. [How to cite](#cite) 
@@ -208,6 +209,9 @@ Parameters:
    
 Note:
 -  The batch size should not exceed the number of SMILES that you have in your fine-tuning file (taking into account the data augmentation).
+
+## Preprint<a name="Preprint"></a>
+A preprint (not peer-reviewed) version of the original manuscript is available as pdf in this repository ([preprint/](preprint) folder).
 
 
 ## Authors<a name="Authors"></a>
