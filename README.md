@@ -18,10 +18,10 @@ The following methods are implemented:
     1. [Sampling from a pre-trained model](#Sample)
     2. [Training a model on your data](#Training) 
     3. [Fine-tuning a model on your data](#Finetuning) 
-4. [Manuscript preprint](#Preprint)
 4. [Authors](#Authors)
 5. [License](#License)
 6. [How to cite](#cite) 
+7. [Manuscript preprint](#Preprint)
 
 ## Prerequisites<a name="Prerequisites"></a>
 
@@ -210,10 +210,6 @@ Parameters:
 Note:
 -  The batch size should not exceed the number of SMILES that you have in your fine-tuning file (taking into account the data augmentation).
 
-## Preprint<a name="Preprint"></a>
-A preprint (not peer-reviewed) version of the original manuscript is available as a pdf in this repository ([preprint](preprint) folder). This document is the unedited version of a Submitted Work that was subsequently accepted for publication in the Journal of Chemical Information and Modeling, copyright © American Chemical Society after peer review. To access the final edited and published work see https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943. 
-
-
 ## Authors<a name="Authors"></a>
 
 * Robin Lingwood (https://github.com/robinlingwood)
@@ -245,3 +241,7 @@ If you use this code (or parts thereof), please cite it as:
  publisher={ACS Publications}
 }
 ```
+
+## Preprint<a name="Preprint"></a>
+A preprint (not peer-reviewed) version of the original manuscript is available as a pdf in this repository ([preprint](preprint) folder). This document is the unedited version of a Submitted Work that was subsequently accepted for publication in the Journal of Chemical Information and Modeling, copyright © American Chemical Society after peer review. To access the final edited and published work see https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943. 
+
