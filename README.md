@@ -211,7 +211,7 @@ Note:
 -  The batch size should not exceed the number of SMILES that you have in your fine-tuning file (taking into account the data augmentation).
 
 ## Preprint<a name="Preprint"></a>
-A preprint version of the original manuscript is available as pdf in this repository ([preprint](preprint) folder). This document is the unedited Author’s version of a Submitted Work that was subsequently accepted for publication in the Journal of Chemical Information and Modeling, copyright © American Chemical Society after peer review. To access the final edited and published work see https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943. 
+A preprint (not peer-reviewed) version of the original manuscript is available as a pdf in this repository ([preprint](preprint) folder). This document is the unedited version of a Submitted Work that was subsequently accepted for publication in the Journal of Chemical Information and Modeling, copyright © American Chemical Society after peer review. To access the final edited and published work see https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943. 
 
 
 ## Authors<a name="Authors"></a>
