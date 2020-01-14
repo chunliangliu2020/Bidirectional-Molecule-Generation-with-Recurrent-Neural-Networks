@@ -242,6 +242,6 @@ If you use this code (or parts thereof), please cite it as:
 }
 ```
 
-## Preprint<a name="Preprint"></a>
+## Manuscript Preprint<a name="Preprint"></a>
 A preprint (not peer-reviewed) version of the original manuscript is available as a pdf in this repository ([preprint](preprint) folder). This document is the unedited version of a Submitted Work that was subsequently accepted for publication in the Journal of Chemical Information and Modeling, copyright © American Chemical Society after peer review. To access the final edited and published work see https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943. 
 
