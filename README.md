@@ -1,3 +1,10 @@
+![repo version](https://img.shields.io/badge/Version-v.%201.0-green)
+![python version](https://img.shields.io/badge/python-v.%203.6.8-blue)
+![pytorch](https://img.shields.io/badge/pytorch-v.%201.0.0-orange)
+![license](https://img.shields.io/badge/license-CC_BY_4.0-yellow)
+
+
+
 # Bidirectional Molecule Generation with Recurrent Neural Networks
 
 This is the supporting code for: Grisoni F., Moret M., Lingwood R., Schneider G., "Bidirectional Molecule Generation with Recurrent Neural Networks". *Journal of Chemical Information and Modeling* (2020). Available [here](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00943).
