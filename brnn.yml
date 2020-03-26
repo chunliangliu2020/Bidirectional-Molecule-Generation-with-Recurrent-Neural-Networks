@@ -1,11 +1,11 @@
 name: brnn
 channels:
+  - conda-forge
   - rdkit
   - openbabel
   - soumith
   - anaconda
   - defaults
-  - conda-forge
 dependencies:
   - cuda80=1.0
   - cudatoolkit=10.0.130
