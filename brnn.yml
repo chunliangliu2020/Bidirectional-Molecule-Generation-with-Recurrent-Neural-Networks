@@ -4,6 +4,7 @@ channels:
   - openbabel
   - soumith
   - anaconda
+  - defaults
 dependencies:
   - cuda80=1.0
   - cudatoolkit=10.0.130
