@@ -5,6 +5,9 @@ channels:
   - soumith
   - anaconda
 dependencies:
+  - cuda80=1.0
+  - cudatoolkit=10.0.130
+  - cudnn=7.3.1
   - matplotlib=3.0.3
   - numpy=1.16.2
   - numpy-base=1.16.2
