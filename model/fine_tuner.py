@@ -133,8 +133,7 @@ class FineTuner():
             # Train model (Data reshaped from (N_samples, N_augmentation, molecular_size, encoding_size)
             # to  (all_SMILES, molecular_size, encoding_size))
             statistic = self._model.train(self._data.reshape(-1, self._molecular_size, self._encoding_size),
-                                          label.reshape(-1, self._molecular_size), epochs=1,
-                                          batch_size=self._batch_size)
+                                          label.reshape(-1, self._molecular_size), epochs=1, batch_size=int(self._batch_size))
             tot_stat.append(statistic.tolist())
 
             # Store model

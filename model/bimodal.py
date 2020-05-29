@@ -77,7 +77,7 @@ class BIMODAL():
         data = np.swapaxes(data, 0, 1)
 
         # Create tensor from label
-        label = torch.from_numpy(label).to(self._device)
+        label = torch.from_numpy(label).to(self._device, dtype=torch.long)
 
         # Calculate number of batches per epoch
         if (n_samples % batch_size) is 0:
@@ -164,10 +164,10 @@ class BIMODAL():
         # Use train mode to get loss consistent with training
         self._lstm.train()
 
-        # Gradient is not compute to reduce memory requirements
+        # Gradient is not computed to reduce memory requirements
         with torch.no_grad():
             # Compute tensor of labels
-            label = torch.from_numpy(label).to(self._device)
+            label = torch.from_numpy(label).to(self._device, dtype=torch.long)
 
             # Number of samples
             n_samples = data.shape[0]
@@ -222,7 +222,6 @@ class BIMODAL():
                     if j % 2 == 1:
                         loss = self._loss(pred, label[batch_start:batch_end, start - 1])
                         start -= 1
-
                     # Sum loss over molecule
                     molecule_loss += loss.item()
 
