@@ -95,7 +95,8 @@ class FineTuner():
             self._data = self._data[:, 1:]
 
         # Build model
-        self._model.build(stor_dir + '/' + self._experiment_name + '/' + self._start_model)
+        # self._model.build(stor_dir + '/' + self._experiment_name + '/' + self._start_model)
+        self._model.build(self._start_model)
 
         # Store total Statistics
         tot_stat = []
