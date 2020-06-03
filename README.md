@@ -1,5 +1,5 @@
 ![repo version](https://img.shields.io/badge/Version-v.%201.0-green)
-![python version](https://img.shields.io/badge/python-v.%203.6.8-blue)
+![python version](https://img.shields.io/badge/python-v.%203.7.4-blue)
 ![pytorch](https://img.shields.io/badge/pytorch-v.%201.0.0-orange)
 ![license](https://img.shields.io/badge/license-CC_BY_4.0-yellow)
 
